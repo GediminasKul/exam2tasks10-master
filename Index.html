@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weight Converter</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Custom JS -->
+    <script defer src="./script.js"></script>
+    <!-- GITHUB LINK https://github.com/GediminasKul/exam2tasks10.git -->
+  </head>
+  <body>
+    <header>
+      <!-- Header code-->
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <h1 class="headline">Weight Converter</h1>
+        <!-- Users input -->
+        <form>
+          <input type="text" id="search" placeholder="Enter kilograms..." />
+          <input type="submit" id="submit-btn" value="Calculate" />
+        </form>
+        <!-- Place for output after form submission -->
+        <div id="output" class="output-style">
+          <p class="convert-to">
+            Convert to:
+            <select id="options">
+              <option value="Pounds">Pounds (lb)</option>
+              <option value="Ounces">Ounces (oz)</option>
+              <option value="Grams">Grams (g)</option>
+            </select>
+          </p>
+          <p id="output-text">Waiting for your input.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Footer code -->
+    </footer>
+  </body>
+</html>
